@@ -17,7 +17,7 @@ const runningDevice = `${OS.platform()}`+` ${OS.arch()}`
 const HostName = `${OS.hostname()}`
 const readLine = require("node:readline")
 
-let UserArray ;
+let UserArray = false;
 
 console.warn(`Assalamualaikum! Brother/Sister,
 ---Please Check before going ahead---
